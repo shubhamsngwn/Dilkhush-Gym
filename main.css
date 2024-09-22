@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.shownavinfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 75px;
+    background-color: black;
+    color: white;
+}
+
+.shownavinfo a {
+    color: white;
+    font-size: 20px;
+}
+.size {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+.imgs i{
+    margin: 2px;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 15px;
+}
+.imgs i:hover{
+    cursor: pointer;
+}
+.mainnavelements {
+    height: 150px;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    color: white;
+    background-color: black;
+    display: flex;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainnavelements a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    color: inherit;
+    padding: 5px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),
+    linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+.mainnavelements a:hover, a:focus {
+    background-size: 0 0.1em, 100% 0.1em;
+}
+
+.imgs a:hover {
+    background-color: rgb(75, 74, 74);
+}
+.imgs a {
+    border: 2px solid white;
+    border-radius: 35px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.gymlogo {
+    height: 115px;
+    width: 125px;
+    border-radius: 15px;
+}
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+    line-height: 50px;
+}
+.heading h3 {
+    font-size: 35px;
+}
+.heading p {
+    font-size: 25px;
+}
+.mail {
+    font-size: 20px;
+}
+.mail:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img {
+    width: 100%;
+    height: 800px;
+}
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img {
+    text-align: center;
+}
+.images img {
+    height: 300px;
+    width: 500px;
+}
+.images h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.vid video {
+    margin-top: 17px;
+    width: 485px;
+    height: 326px;
+}
+.main-adv-parent {
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.adv-heading {
+    text-align: center;
+}
+.adv-heading h2 {
+    margin: 15px;
+}
+.adv-parent {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.prt1 {
+    margin-left: 25px;
+}
+.prt1 p {
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+.foot {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.foot a {
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+}
+.foot a:hover {
+    background-color: rgb(98, 97, 97);
+    cursor: pointer;
+}
+.copyright {
+    margin: 10px;
+    color: white;
+}

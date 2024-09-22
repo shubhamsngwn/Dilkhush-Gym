@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    background: linear-gradient(320deg, #e3343c, #20df33, #3d56f8);
+    padding: 10px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+.heading {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    color: black;
+    font-size: 50px;
+}
+.grid-wrapper > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-wrapper > div > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.grid-wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+}
+.grid-wrapper .wide {
+    grid-column: span 2;
+}
+.grid-wrapper .tall {
+    grid-row: span 2;
+}
+.grid-wrapper .big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot button{
+    margin-top: 25px;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 60px;
+    font-size: 25px;
+    text-decoration: none;
+    border: none;
+}
+.foot button:hover {
+    cursor: pointer;
+    background-color: rgb(211, 209, 209);
+    
+}

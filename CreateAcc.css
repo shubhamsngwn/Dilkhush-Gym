@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(320deg, #4d28e3, #0590a9, #0c08eb);
+}
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.parent {
+    display: flex;
+    margin-top: 150px;
+    height: 450px;
+    width: 750px;
+}
+.welback {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: rgb(20, 26, 202);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 260px;
+}
+.heading {
+    margin-top: -10px;
+    margin-bottom: 35px;
+}
+
+.crtacc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-top-right-radius: 15px;
+    width: 470px;
+    border-bottom-right-radius: 15px;
+}
+.icons {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.icons i {
+    margin: 5px;
+    border: 0.5px solid black;
+    padding: 15px;
+    border-radius: 50%;
+}
+.heading1 {
+    margin-top: 25px;
+}
+.form {
+    margin-top: 15px;
+}
+.btn1 button {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: rgb(20, 26, 202);
+    border: 0.1px solid rgb(20, 26, 202);
+    color: white;
+    text-decoration: none;
+}
+.frmmnt {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 8px;
+    width: 300px;
+}
+.para {
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+.btn button {
+    padding: 10px;
+    margin-top: 3px;
+    border-radius: 25px;
+    background-color: rgb(20, 26, 202);
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+}
+.icons i:hover {
+    cursor: pointer;
+    background-color: rgb(238, 235, 235);
+}
+button:hover {
+    cursor: pointer;
+}
+.form input {
+    border-radius: 15px;
+}
